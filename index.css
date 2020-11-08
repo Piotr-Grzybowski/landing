@@ -6,15 +6,9 @@
 body {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  max-width: 1920px;
+  margin: auto;
+  min-width: 1550px;
   line-height: 26px;
-}
-
-.container {
-  max-width: 1140px;
-  padding: 0px 20px;
-  margin: 0 auto;
 }
 
 .btn {
@@ -261,4 +255,11 @@ footer .footer-menu {
   letter-spacing: -0.25px;
   line-height: 26px;
   font-family: 'Lato', sans-serif;
+}
+
+/* media */
+@media only screen and (min-width: 1500px) {
+  header {
+    width: 100%;
+  }
 }
