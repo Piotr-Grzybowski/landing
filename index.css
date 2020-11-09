@@ -332,7 +332,7 @@ footer {
     position: absolute;
     z-index: 1000;
     top: 20px;
-    right: -200px;
+    right: -30vw;
     width: 50px;
     height: 50px;
     border: none;
@@ -343,7 +343,7 @@ footer {
     background-size: 100%;
   }
   .showClose {
-    background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
+    background-image: url('./assets/ham-close.svg');
   }
   .navbar {
     display: inline-block;
@@ -414,11 +414,24 @@ footer {
     width: 24%;
     height: 18%;
   }
+  .navbar {
+    width: 180vw;
+  }
+  .hamburger {
+    right: -30vw;
+  }
+  header {
+    margin: 10px auto;
+  }
   header .form {
     height: 110%;
+    margin-top: 65vh
+  }
+  .header-caption p {
+    width: 100%;
   }
   .middle {
-    margin-top: 2%;
+    margin-top: 34%;
     height: 91vh;
   }
   .middle-picture img {
@@ -429,6 +442,7 @@ footer {
   }
   footer {
     padding: 3.5vh 7vw;
+    margin-top: 10%;
   }
   .footer-menu h3 {
     font-size: 1.2rem;
